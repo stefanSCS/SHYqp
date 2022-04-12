@@ -1,0 +1,70 @@
+
+
+
+#### Note: Increased weight parameter ww=0.975 (for DEG=4)
+#### When DEG is high (e.g., 10), the uniform fit is obtained with the default ww=0.7 
+
+name=ISO
+
+
+###This material is centro-symmetric 
+assym=N
+
+
+DEG=4
+
+
+sT0 = 1.000
+sT15 = 1
+sT225=*
+sT30 = 1
+sT45 = 1
+sT60 = 1
+sT675=*
+sT75 = 1
+sT90 = 1
+
+rT0 = 1
+rT15 = 1
+rT225=*
+rT30 = 1
+rT45 = 1
+rT60 = 1
+rT675=*
+rT75 = 1
+rT90 = 1
+
+
+sC0 = 1 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 1
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 1  
+
+rC0 = 1
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 1
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  1
+
+
+sTb =  1
+sCb =  *
+rTb =  1
+rCb =  *
+
+
+ww=0.975
+
+
+LTAN=0.5
+LUAX=0.6
+LBAX=1

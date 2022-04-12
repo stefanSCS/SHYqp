@@ -1,0 +1,70 @@
+
+
+
+
+
+
+name=AZ31B_Kondori2019
+
+
+###This material is centro-symmetric 
+assym=Y
+
+
+DEG=4
+
+
+sT0 = 190
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 190
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 202
+
+rT0 = 1.7
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 2.0
+rT60 = *
+rT675=*
+rT75 = *
+rT90 = 2.5
+
+
+sC0 = 108 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 114
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 120  
+
+rC0 = 0.3
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 0.4
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  0.37
+
+
+sTb =  *
+sCb =  *
+rTb =  *
+rCb =  *
+
+
+ww=0.7
+
+
+LTAN=0.5
+LUAX=0.6
+LBAX=1
