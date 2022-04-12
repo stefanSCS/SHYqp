@@ -1,0 +1,50 @@
+AZ31B_Khan2011B
+SHYqp degree: 4
+Solver: cvxopt
+---Convexity check with Hessian leading principal minors: min(det_1), min(det_2), min(det_3)
+-8.881784197001252e-16, -8.493206138382448e-15, -2.731148640577885e-14
+---Convexity check with Gaussian curvature: minimum found  = 0.0015232625677691933
+---All stresses square root error: 0.2370
+---All r-Values square root error: 0.5536
+---Tension/Directional Stress: Theta, Data, Predicted
+ 0.0, 1.0000, 1.0000
+45.0, 1.0724, 1.0269
+90.0, 1.1557, 1.0680
+---Tension/Directional r-Values: Theta, Data, Predicted
+ 0.0, 1.2916, 1.2916
+45.0, 2.7206, 2.7787
+90.0, 2.7618, 3.0511
+---Tension Balanced-Biaxial Stress: Data, Predicted
+1.0779, 0.8637
+---Tension Balanced-Biaxial r-Value: Data, Predicted
+1.0000, 0.6138
+---Compression/Directional stress: Theta, Data, Predicted
+ 0.0, 0.5606, 0.5606
+45.0, 0.5430, 0.5512
+90.0, 0.5900, 0.5894
+---Compression/Directional r-Values: Theta, Data, Predicted
+ 0.0, 0.2000, 0.2000
+45.0, 0.2500, 0.2753
+90.0, 0.4000, 0.2348
+---Compression Balanced-Biaxial Stress: Data, Predicted
+0.5753, 0.5535
+---Compression Balanced-Biaxial r-Value: Data, Predicted
+1.0000, 0.7941
+--------SHYqp-Coefficients
+---P-Coeffs
+-0.39188784673717836
+-0.3800209347212244
+0.2050292816881556
+-0.4157946432694697
+-0.45101997456222487
+-0.9084057987478495
+---Q-Coeffs---------------------------------------------
+0.39188784673717836
+0.3065546498129965
+0.7882725910856921
+0.15296543041346014
+0.40373073096591494
+0.7556171881673175
+0.2465273849425547
+0.8322356112872906
+0.3401665063391749
