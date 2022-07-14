@@ -5,9 +5,9 @@
 This code implements the Bezier5YS and SHYqp models of the yielding and flow properties of metallic alloys. Applications range over the entire spectrum of lattice structures: e.g., magnesium, aluminum, iron. The only symmetry assumed is that of orthotropic material symmetry (featured in general by metal sheet).
 The underlying theory and algorithms are presented in:
 
-- Preprint: *Bezier5YS and SHYqp: A general framework for generating data and for modeling symmetric and asymmetric orthotropic yield surfaces* ([ResearchGate](https://www.researchgate.net/publication/359893204_Bezier5YS_and_SHYqp))
+- Preprint: *Bezier5YS and SHYqp: A general framework for generating data and for modeling symmetric and asymmetric orthotropic yield surfaces* ([ResearchGate](https://www.researchgate.net/publication/359893204_Bezier5YS_and_SHYqp) NOTE: This preprint is now obsolete; The revised version uses an extended Bezier5YS to allow for enhanced shape control and additional input data.)
 
-- .
+- Final:
 
 
 ## USAGE
@@ -58,4 +58,4 @@ Within the 'OPTIM' working directory create a subfolder named 'FIGS'. This is th
 
 ## License
 
-This code is released under the MIT license.
+This proof of concept code is released under the MIT license.

@@ -1,0 +1,68 @@
+
+
+##NOTE:
+###data corresponds to strain-rate 1/10^4
+name=ZEK100_Habib2017
+
+
+###This material is centro-symmetric 
+assym=Y
+
+
+DEG=4
+
+
+sT0 = 194
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 132
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 120
+
+rT0 = 0.7689
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 1.0044
+rT60 = *
+rT675=*
+rT75 = *
+rT90 = 0.4851
+
+
+sC0 = 143 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 128
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 119
+
+rC0 = 0.7647
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 0.5322
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  0.1566
+
+
+sTb =  *
+sCb =  *
+rTb =  *
+rCb =  *
+
+
+ww=0.7
+
+
+LTAN=0.5
+LUAX=0.6
+LBAX=1

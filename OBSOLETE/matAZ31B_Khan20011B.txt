@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+###NOTE:
+###R-values in compression were not reported.
+###the R-values in compression for this data were assumed equal to those 
+###reported in AZ31_Lou2007
+
+name=AZ31B_Khan2011B
+
+
+###This material is centro-symmetric 
+assym=Y
+
+
+DEG=4
+
+
+sT0 = 178.77
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 191.71
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 206.61
+
+rT0 = 1.2916
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 2.7206
+rT60 = *
+rT675=*
+rT75 = *
+rT90 = 2.7618
+
+
+sC0 = 100.22 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 97.080
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 105.47  
+
+rC0 = 0.2
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 0.25
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  0.4
+
+
+sTb =  *
+sCb =  *
+rTb =  *
+rCb =  *
+
+
+ww=0.7
+
+
+LTAN=0.5
+LUAX=0.6
+LBAX=1
