@@ -1,0 +1,83 @@
+
+
+
+
+name=AZ31B_Andar2012
+
+
+###specify whether material is centro-symmetric: Y or N
+###If no value is specified, the default is 'Y' 
+assym=*
+
+
+DEG=14
+
+###Directional data tensile uniaxial 
+sT0 = 198
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 204
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 212
+
+rT0 = 2.56
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 3.66
+rT60 = *
+rT675=*
+rT75 = *
+rT90 =  3.35
+
+###Directional data compression uniaxial  
+sC0 = 158 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 157.5
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 157  
+
+rC0 = 0.14 
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 0.15
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  0.16
+
+
+### Balanced-biaxial tensile/compression
+### Note: if any of these values is missing on the next two lines, then default values of (sT0+sT90)/2 and (sC0+sC90)/2 are used 
+sTb =  185
+sCb =  *
+### Note: if any of these values is missing on the next two lines, then default value of 1 is used for both 
+rTb =  *
+rCb =  *
+
+fileData=*
+
+### Overall weight for data 
+ww=0.9
+
+### Shape parameters 
+LTAN=0.5
+LUAX=0.6
+
+
+LBAX=0
+LBAX1=1
+LBAX2=*
+LBAX3=*
+LBAX4=*
+
+
+

@@ -1,0 +1,71 @@
+
+name=AZ31B_Lou2007_B
+
+assym=Y
+
+DEG=14
+
+###Directional data tensile uniaxial
+sT0 = 164 
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 180
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 192
+
+rT0 = 1.7 
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 2.6
+rT60 = *
+rT675=*
+rT75 = *
+rT90 =  4.3
+
+###Directional data compression uniaxial
+sC0 = 104 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 105
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 110  
+
+rC0 = 0.2 
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 0.25
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  0.4
+
+
+### Balanced-biaxial tensile/compression
+### Note: if any of these values is missing on the next two lines, then default values of (sT0+sT90)/2 and (sC0+sC90)/2 are used 
+sTb =  *
+sCb =  *
+### Note: if any of these values is missing on the next two lines, then default value of 1 is used for both 
+rTb =  *
+rCb =  *
+
+fileData=*
+
+### Overall weight for data 
+ww=0.9
+
+### Shape parameters for directional properties
+LTAN=0.5
+LUAX=0.6
+
+##Shape parameters for Bezier5YS patches
+LBAX=0
+LBAX1=1
+

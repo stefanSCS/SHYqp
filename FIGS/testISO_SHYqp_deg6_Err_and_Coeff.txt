@@ -1,0 +1,71 @@
+testISO
+SHYqp degree: 6
+Solver: cvxopt
+---Convexity check with Hessian leading principal minors: min(det_1), min(det_2), min(det_3)
+-8.90252132576642e-31, -6.661338147750939e-16, -9.818534874028728e-16
+---Convexity check with Gaussian curvature: minimum found  = 0.09120569255897477
+---All stresses square root error: 0.0086
+---All r-Values square root error: 0.0005
+---Tension/Directional Stress: Theta, Data, Predicted
+ 0.0, 1.0000, 1.0000
+22.5, 1.0000, 1.0000
+45.0, 1.0000, 1.0000
+67.5, 1.0000, 1.0000
+90.0, 1.0000, 1.0001
+---Tension/Directional r-Values: Theta, Data, Predicted
+ 0.0, 1.0000, 1.0000
+22.5, 1.0000, 0.9998
+45.0, 1.0000, 1.0000
+67.5, 1.0000, 0.9999
+90.0, 1.0000, 0.9997
+---Tension Balanced-Biaxial Stress: Data, Predicted
+1.0000, 0.9940
+---Tension Balanced-Biaxial r-Value: Data, Predicted
+1.0000, 1.0001
+---Compression/Directional stress: Theta, Data, Predicted
+ 0.0, 1.0000, 1.0000
+22.5, 1.0000, 1.0000
+45.0, 1.0000, 1.0000
+67.5, 1.0000, 1.0000
+90.0, 1.0000, 1.0001
+---Compression/Directional r-Values: Theta, Data, Predicted
+ 0.0, 1.0000, 1.0000
+22.5, 1.0000, 0.9998
+45.0, 1.0000, 1.0000
+67.5, 1.0000, 0.9999
+90.0, 1.0000, 0.9997
+---Compression Balanced-Biaxial Stress: Data, Predicted
+1.0000, 0.9940
+---Compression Balanced-Biaxial r-Value: Data, Predicted
+1.0000, 1.0001
+--------SHYqp-Coefficients
+---P-Coeffs
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+---Q-Coeffs---------------------------------------------
+0.0
+0.0
+0.3073817461166152
+0.009564520106537407
+-0.18901040365798913
+0.009479933458735825
+0.03596014682898797
+-0.00041807627476028904
+-0.17717534468702859
+0.33450795230675767
+0.32714828164020043
+0.04317059295080821
+0.025731378814668686
+-0.16593442803211475
+-0.07024190637089169
+0.019780199197943445

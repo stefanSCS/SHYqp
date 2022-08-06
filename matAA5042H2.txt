@@ -1,0 +1,70 @@
+
+
+
+name=AA5042H2
+
+
+###This material is centro-symmetric 
+assym=N
+
+
+DEG=16
+
+
+sT0 = 277.17
+sT15 = 277.17
+sT225=*
+sT30 = 282.00
+sT45 = 281.31
+sT60 = 282.00
+sT675=*
+sT75 = 287.51
+sT90 = 289.58
+
+rT0 = 0.354
+rT15 = 0.239
+rT225=*
+rT30 = 0.6400
+rT45 = 1.0690
+rT60 = 1.279
+rT675=*
+rT75 = 1.2240
+rT90 = 1.396
+
+
+sC0 = 1 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 1
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 1  
+
+rC0 = 1
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 1
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  1
+
+
+sTb =  296.99
+sCb =  *
+rTb =  0.9910
+rCb =  *
+
+fileData=*
+
+#ww=0.85
+ww=0.9
+
+LTAN=0.5
+LUAX=0.6
+LBAX=1
+LBAX1=0.7
+LBAX2=1

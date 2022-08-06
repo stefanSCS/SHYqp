@@ -1,0 +1,87 @@
+
+
+
+
+##Note: the compression r-values are not experimental
+##just repeated values of the tension r-values, as reported in the cited paper
+name=TiG4_Raemy2017
+
+
+###specify whether material is centro-symmetric: Y or N
+###If 'N', only the tensile values are used
+###If no value is specified, the default is 'Y' 
+assym=Y
+
+
+### The degree of the model (specified as the even degree of the model).
+### If not specified, the model is assumed to be SHY43 (i.e., DEG=4)
+DEG=8
+
+###Directional data tensile uniaxial  
+sT0 = 569
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 620
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 651
+
+rT0 = 1.05
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 2.10
+rT60 = *
+rT675=*
+rT75 = *
+rT90 =  2.25
+
+###Directional data compression uniaxial   
+sC0 = 751 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 600
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 580  
+
+rC0 = 1.05
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 2.10
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  2.25
+
+
+
+sTb =  800
+sCb =  606
+### 
+rTb =  1.0
+rCb =  1.0
+
+fileData=*
+
+#ww=0.95
+ww=0.975
+
+### Shape parameters 
+
+LTAN=0.5
+LUAX=0.6
+
+LBAX=1.0
+#LBAX1=0.5
+LBAX1=0.2
+LBAX2=0.4
+LBAX3=0.2
+LBAX4=0.4
+
+

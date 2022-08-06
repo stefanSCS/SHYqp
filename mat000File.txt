@@ -1,0 +1,71 @@
+
+
+
+
+name=testISO
+
+
+###This material is centro-symmetric 
+assym=N
+
+
+DEG=6
+
+
+sT0 = 1
+sT15 = *
+sT225=1
+sT30 = *
+sT45 = 1
+sT60 = *
+sT675=1
+sT75 = *
+sT90 = 1
+
+rT0 = 1
+rT15 = *
+rT225=1
+rT30 = *
+rT45 = 1
+rT60 = *
+rT675=1
+rT75 = *
+rT90 = 1
+
+
+sC0 = 1 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 1
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 1  
+
+rC0 = 1
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 1
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  1
+
+
+sTb =  *
+sCb =  *
+rTb =  *
+rCb =  *
+
+fileData=*
+ww=0.95
+
+
+LTAN=0.5
+LUAX=0.6
+LBAX=1
+LBAX1=0.5
+LBAX2=0.5
+

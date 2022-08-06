@@ -1,0 +1,97 @@
+
+
+
+
+##Model-B
+###Yield stresses estimated with Damask simulation, at Wp(Ep=0.002 along RD) 
+###R-values in balanced biaxial are sampled at the end of load step: at Ep=0.02
+###
+##Four shape param (no input file)
+
+
+name=AZ31B_Lou2007_TXT2
+
+
+###specify whether material is centro-symmetric: Y or N
+###If 'N', only the tensile values are used
+###If no value is specified, the default is 'Y' 
+assym=Y
+
+
+### The degree of the model (specified as the even degree of the model).
+### If not specified, the model is assumed to be SHY43 (i.e., DEG=4)
+DEG=14
+
+###Directional data tensile uniaxial
+sT0 = 157 
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 170
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 182
+
+rT0 = 1.32 
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 2.3
+rT60 = *
+rT675=*
+rT75 = *
+rT90 =  4.2
+
+###Directional data compression uniaxial
+sC0 = 109
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 111
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 121 
+
+rC0 = 0.01
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 0.01
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  0.01
+
+
+### Balanced-biaxial tensile/compression
+### Note: if any of these values is missing on the next two lines, then default values of (sT0+sT90)/2 and (sC0+sC90)/2 are used 
+sTb =  151
+sCb =  93.2
+### Note: if any of these values is missing on the next two lines, then default value of 1 is used for both 
+rTb =  0.49
+rCb =  0.57
+
+
+#fileData=AZ31B_biaxYS_Data.txt
+fileData=*
+
+### Overall weight for data 
+ww=0.9
+
+### Shape parameters 
+
+LTAN=0.5
+LUAX=0.6
+
+
+LBAX=1.0
+LBAX1=0.5
+LBAX2=1
+LBAX3=1
+LBAX4=1
+
+#LBAX=0
+#LBAX1=1
+

@@ -1,0 +1,89 @@
+
+
+
+
+
+##Model-A
+##The same as 'AZ31B_Andar2012_002' but with one shape parameter (no file input)
+
+name=AZ31B_Andar2012_00
+
+
+###specify whether material is centro-symmetric: Y or N
+###If no value is specified, the default is 'Y' 
+assym=*
+
+
+### The degree of the model (specified as the even degree of the model).
+### If not specified, the model is assumed to be SHY43 (i.e., DEG=4)
+DEG=14
+
+###Directional data tensile uniaxial 
+sT0 = 198
+sT15 = *
+sT225=*
+sT30 = *
+sT45 = 204
+sT60 = *
+sT675=*
+sT75 = *
+sT90 = 212
+
+rT0 = 1
+rT15 = *
+rT225=*
+rT30 = *
+rT45 = 2
+rT60 = *
+rT675=*
+rT75 = *
+rT90 = 1.7
+
+###Directional data compression uniaxial  
+sC0 = 158 
+sC15 = *
+sC225=*
+sC30 = *
+sC45 = 157.5
+sC60 = *
+sC675=*
+sC75 = *
+sC90 = 157  
+
+rC0 = 0.01 
+rC15 = *
+rC225=*
+rC30 = *
+rC45 = 0.01
+rC60 = *
+rC675=* 
+rC75 = *
+rC90 =  0.01
+
+
+### Balanced-biaxial tensile/compression
+### Note: if any of these values is missing on the next two lines, then default values of (sT0+sT90)/2 and (sC0+sC90)/2 are used 
+sTb =  185
+sCb =  141
+### Note: if any of these values is missing on the next two lines, then default value of 1 is used for both 
+rTb =  0.9
+rCb =  0.9
+
+#fileData=AZ31B_Biaxial_Andar.txt
+fileData=*
+
+
+ww=0.95
+
+### Shape parameters 
+
+LTAN=0.5
+LUAX=0.6
+
+LBAX=0
+LBAX1=1
+#LBAX2=1
+#LBAX3=1
+#LBAX4=1
+
+
