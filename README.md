@@ -7,7 +7,7 @@ The underlying theory and algorithms are presented in:
 
 - Preprint: *Bezier5YS and SHYqp: A general framework for generating data and for modeling symmetric and asymmetric orthotropic yield surfaces* ([ResearchGate](https://www.researchgate.net/publication/359893204_Bezier5YS_and_SHYqp) NOTE: This preprint is now obsolete; The revised version uses an extended Bezier5YS to allow for enhanced shape control and additional input data.)
 
-- Final:
+- Final: [European Journal of Mechanics - A/Solids](https://doi.org/10.1016/j.euromechsol.2022.104781)
 
 
 ## USAGE
